@@ -1,21 +1,8 @@
-pipeline {
-    agent any
+#!/usr/bin/env groovy
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
+@Library(['jenkinsfile1']) _
+
+node {
+    helloWorld {
     }
 }
