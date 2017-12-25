@@ -6,4 +6,9 @@ node {
     helloWorld {
     }
 }
+
+node {
+	variablesubsitute{
+	}
+}
  
