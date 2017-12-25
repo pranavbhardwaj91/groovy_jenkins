@@ -5,9 +5,7 @@
 node {
     helloWorld {
     }
-}
 
-node {
     variablesubsitute{
     }
 }
