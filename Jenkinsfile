@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library(['jenkins-library']) 
+@Library(['jenkins-library']) _
 
 node {
     helloWorld {
