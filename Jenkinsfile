@@ -1,11 +1,11 @@
-#!/usr/bin/env groovy
-@Library(['jenkins-library']) _
+@Library('jenkins-library') _
 
 node {
     helloWorld {
+        // Code to execute within helloWorld
     }
 
-    variablesubsitute{
-     }
+    variablesubsitute {
+        // Code to execute within variablesubsitute
+    }
 }
- 
